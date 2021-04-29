@@ -1,8 +1,5 @@
-
-
 import sys
 import os
-
 uno = os.getcwd()
 print(uno)
 dos = os.path.dirname(uno)
