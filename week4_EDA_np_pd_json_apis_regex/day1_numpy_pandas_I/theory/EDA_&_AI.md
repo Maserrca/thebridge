@@ -14,6 +14,7 @@ The field of Data Science is not a single step process. It has many steps involv
 
 ------------
 
+
 **3.Exploratory Data Analysis (EDA)**: This is a crucial step in Data Science, where the Data Scientist explores the data from various angles and tries to draw initial conclusions from the data. This includes Data Visualization, Rapid Prototyping, Feature Selection, and finally Model Selection. A different set of tools are used in this step. The most commonly used are R or Python for scripting and Data Manipulation, SQL for interacting with Databases, and different libraries for data manipulation and visualization.
 
 ------------
