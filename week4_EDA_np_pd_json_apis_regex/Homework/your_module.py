@@ -29,3 +29,11 @@ def get_root_path(n):
 # n --> es el número de veces que se tiene que hacer os.path.dirname 
 # si en .ipynb notebook es 5 entonces en .py usando __file__ es 4. 
 get_root_path(n=5)
+
+# Con esta función leemos los datos y lo pasamos a un DataFrame de Pandas
+def sql_query(query):
+    curs.execute(query)
+    datos_query = curs.fetchall()
+    col_names = [description[0] for description in curs.description]
+    return pd.DataFrame(datos_query,columns=col_names)
+sql_query(query)
