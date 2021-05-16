@@ -41,5 +41,3 @@ else:
         print("¡Gana jugador 1!")
     elif "#" in jugador2.tablero2.values:
         print("¡Gana jugador 2!")
-    else:
-        "GAME OVER"
