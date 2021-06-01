@@ -31,11 +31,11 @@ if menu == "Visualización":
     pass
 
 if menu == "":
-    r = requests.get("http://localhost:8080/give_me_id?token_id=R70423563").json()
+    r = requests.get("").json() #Añadir con el host 6060 y dni
     df = pd.DataFrame(r)
     st.write(df)
 
-if menu == "Países":
-    r = requests.get("http://localhost:8080/give_me_id?token_id=R70423563").json()
+if menu == "":
+    r = requests.get("").json() #Añadir con el host 6060 y dni
     df = pd.DataFrame(r)
     st.write(df)
