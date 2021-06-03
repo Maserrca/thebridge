@@ -1,0 +1,12 @@
+{
+    "project_name" : "US Homicides analisys by decade(1080-2019)",
+    "author" : "Marina Serrano",
+    "linkedin" : "",
+    "e_mail" : "",
+    "project_title" : "US Homicides",
+    "project_description" : "This proyect will look into the cases of homicide in the US from 1980 to 2019",
+    "flask_port" : "6060",
+    "streamlit_port" : "8501",
+    "links" : "https://github.com/Maserrca/thebridge/tree/main/EDA",
+    "python_libraries_used" :  ["streamlit", "pandas", "numpy", "flask", "matplotlib", "plotly", "sys", "os", "json", "seaborn", "requests"]
+    }

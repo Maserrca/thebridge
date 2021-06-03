@@ -1,9 +1,9 @@
 '''
-Contains the functionalitythat starts the Flask API. 
-Thisfile only will be executed if it is passed an argument“-x 8642” (argparse), 
+Contains the functionality that starts the Flask API. 
+This file only will be executed if it is passed an argument“-x 8642” (argparse), 
 otherwisewill show “wrong password”. In the API there is, atleast, this GET functions:a.
 One that must allow you to receive atoken_idvalueand, iftoken_idis equaltoS, return the jsons that contains the logic explainedbelow. 
-Otherwise,return a string with a message of error.i.Sis the DNI of the student starting with the letter:Example:“B80070012”.ii.
+Otherwise,return a string with a message of error.i.Sis the DNI of the student starting with the letter: Example:“B80070012”.ii.
 The json returned by flask must be the cleaned dataof your data.8.It is mandatory that the code runs on any computerwith no errors (relative paths)
 '''
 # ------- Import the necessary libraries -------
